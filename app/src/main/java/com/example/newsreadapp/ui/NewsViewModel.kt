@@ -20,7 +20,7 @@ import java.io.IOException
 class NewsViewModel(
     app: Application,
     val newsRepository: NewsRepository //parameter
-) : AndroidViewModel(app){:wq
+) : AndroidViewModel(app){
     val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
     val searchNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
 
